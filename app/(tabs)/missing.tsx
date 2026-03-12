@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function AllItemsScreen() {
+export default function MissingItemsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>All Red Collectibles</Text>
+      <Text style={styles.text}>Missing Items</Text>
     </View>
   );
 }
